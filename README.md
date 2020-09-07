@@ -76,6 +76,7 @@ sum_deaths.to_excel('Nehaila.xlsx')
 
 p = ggplot(aes(x='Last Update' , y='Deaths', group='Country', color='Country',label='Country'), data= df) +\
 geom_line() + geom_text(aes(x='Last Update', y='Deaths',label='Country', size=5),data=sum_deaths)
-# you cans ee in geom_text I used the sum_deaths data for the labels 
-print(p) 
-´´´´
+# you can see in geom_text I used the sum_deaths data for the labels 
+print(p)     
+``` 
+![alt text](https://github.com/Nehaila/nqueen-simulatedannealing/blob/master/sa.jpg)
