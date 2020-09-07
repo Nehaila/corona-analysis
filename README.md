@@ -79,4 +79,4 @@ geom_line() + geom_text(aes(x='Last Update', y='Deaths',label='Country', size=5)
 # you can see in geom_text I used the sum_deaths data for the labels 
 print(p)     
 ``` 
-![alt text](https://github.com/Nehaila/nqueen-simulatedannealing/blob/master/sa.jpg)
+![alt text](https://github.com/Nehaila/corona-analysis/blob/master/Graph.jpg)
